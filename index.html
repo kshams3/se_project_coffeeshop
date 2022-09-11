@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="a nice looking coffeeshop" />
+    <meta name="keywords" content="html css" />
+    <meta name="author" content="Kayvon Shams" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Practicum coffee shop</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo_coffee_shop.svg" alt="logo" class="logo" />
+        <nav class="nav">
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent"> Specialty coffee </span>
+          in the Practicum Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="coffee shop"
+          class="header__image"
+        />
+        <div class="header__paragraphs">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <div class="card__divider"></div>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)
+                  <div class="card__divider"></div>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <div class="card__divider"></div>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)
+                  <div class="card__divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <div class="card__divider"></div>
+                  $1.25
+                </li>
+              </ul>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato
+                  <div class="card__divider"></div>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <div class="card__divider"></div>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <div class="card__divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <div class="card__divider"></div>
+                  $10
+                </li>
+              </ul>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <div class="card__divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <div class="card__divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <div class="card__divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <div class="card__divider"></div>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <div class="card__divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette
+                  <div class="card__divider"></div>
+                  $0.25
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                class="recipes__iframe"
+              >
+              </iframe>
+              <h3 class="recipes__video-captions">
+                <span class="recipes__video-caption">Aeropress recipe </span>
+                <span class="recipes__video-caption">~5min</span>
+              </h3>
+            </div>
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                class="recipes__iframe"
+              ></iframe>
+              <h3 class="recipes__video-captions">
+                <span class="recipes__video-caption">Frenchpress recipe </span>
+                <span class="recipes__video-caption">~15min</span>
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">
+                Name *
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name"
+                  placeholder="Name Surname"
+                />
+              </label>
+              <label class="form__label" for="numbers">
+                Number of guests *
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  id="numbers"
+                  placeholder="1-8"
+                />
+              </label>
+              <label class="form__label" for="date">
+                Date & time *
+                <input class="form__input" type="datetime-local" id="date" />
+              </label>
+              <label class="form__label" for="email">
+                Your email *
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  placeholder="email@gmail.com"
+                />
+              </label>
+              <button class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_type_checkbox" for="check">
+                <input class="form__checkbox" type="checkbox" id="check" />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
+        <section class="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/practicum_logo.svg"
+            alt="practicum logo"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Kayvon Shams</p>
+      </footer>
+    </div>
+  </body>
+</html>
+Footer © 2022 GitHub, Inc. Footer navigation Terms Privacy Security Status Docs
+Contact GitHub Pricing API Training Blog About
