@@ -30,8 +30,12 @@
   color: #ffffff;
   display: flex;
   margin-bottom: 16px;
+  margin: auto;
 }
-
+.card__list-item:last-child {
+  /* reset margin here */
+  margin: 0;
+}
 .card__divider {
   border-bottom: 1px solid #ffffff;
   flex-grow: 1;
