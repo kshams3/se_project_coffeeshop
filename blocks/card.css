@@ -30,7 +30,6 @@
   color: #ffffff;
   display: flex;
   margin-bottom: 16px;
-  margin: auto;
 }
 .card__list-item:last-child {
   /* reset margin here */
